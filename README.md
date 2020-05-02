@@ -60,9 +60,6 @@ no. of parameters (×106 ), and the clinical indices evaluated on the ACDC datas
 <img width="674" alt="Screen Shot 2020-05-01 at 11 04 22 PM" src="https://user-images.githubusercontent.com/42282006/80853609-206b1a00-8c00-11ea-8d3b-77fc5a7ee8d4.png">
 
 
-![healthy_rr](https://user-images.githubusercontent.com/42282006/80854262-95405300-8c04-11ea-9c4b-ff70ebb5b757.png)
-![abnormal_rr](https://user-images.githubusercontent.com/42282006/80854264-96718000-8c04-11ea-98cf-19525c5eabf8.png)
-
 # [How to Run]()
 
 # [Preprocessing]()

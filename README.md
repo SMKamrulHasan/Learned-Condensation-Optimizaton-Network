@@ -44,15 +44,13 @@ We evaluate CondenseUNet architectures for segmentation as well as clinical para
 
 Our proposed L-CO-Net framework substitutes the concept of both standard convolution and group convolution (G-Conv) with learned group-convolution (LGConv). While the standard convolution needs an increased level of computation, i.e. O(Ii x Oo), and concurrently, the pre-defined use of filters in each group convolution restricts its representation capability, these aforementioned problems are mitigated by introducing LG-Conv that learns group convolution dynamically during training through a multi-stage scheme.
 
-![5](https://user-images.githubusercontent.com/42282006/80853422-ccac0100-8bfe-11ea-8c4c-2326c0de7379.png)
-
+![RESULT2](https://user-images.githubusercontent.com/42282006/80854258-907b9f00-8c04-11ea-83d9-74f6011667d3.png)
 
 # [Results]()
 
 Figure shows segmentation results and the ground truth masks for both 2D and 3D cases. It summarizes the comparison results, which show that our proposed model significantly improved the segmentation performance against several state-of-the-art multi-class segmentation techniques in terms of Dice metrics, Hausdorff distance, and clinical parameters. Our proposed L-CO-Net architecture achieved Dice score (Hausdorff distance) of 96.8%(7.9mm) and 95.1%(6.4mm) for the LV bloodpool, 89.5%(8.9mm) and 90.0%(8.9mm) for the LVMyocardium and 93.3%(11.2mm) and 87.43%(11.9mm) for the RV blood-pool in end-diastole and end-systole, respectively.
 
-![Hasan1](https://user-images.githubusercontent.com/42282006/80853394-9b333580-8bfe-11ea-9bae-7227c0431d66.png)
-![Hasan3](https://user-images.githubusercontent.com/42282006/80853397-9d958f80-8bfe-11ea-8677-9c557db349d5.png)
+![PLOT2](https://user-images.githubusercontent.com/42282006/80854260-940f2600-8c04-11ea-8040-a8fad6f1660d.png)
 
 # [Table]()
 
@@ -61,6 +59,9 @@ no. of parameters (×106 ), and the clinical indices evaluated on the ACDC datas
 
 <img width="674" alt="Screen Shot 2020-05-01 at 11 04 22 PM" src="https://user-images.githubusercontent.com/42282006/80853609-206b1a00-8c00-11ea-8d3b-77fc5a7ee8d4.png">
 
+
+![healthy_rr](https://user-images.githubusercontent.com/42282006/80854262-95405300-8c04-11ea-9c4b-ff70ebb5b757.png)
+![abnormal_rr](https://user-images.githubusercontent.com/42282006/80854264-96718000-8c04-11ea-98cf-19525c5eabf8.png)
 
 # [How to Run]()
 

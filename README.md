@@ -71,9 +71,7 @@ no. of parameters (×106 ), and the clinical indices evaluated on the ACDC datas
 
 If you find this work useful for your publications, please consider citing:
 
-> Hasan, SM Kamrul, and Cristian A. Linte. "CondenseUNet: a memory-efficient condensely-connected architecture for bi-ventricular blood pool and myocardium segmentation." Medical Imaging 2020: Image-Guided Procedures, Robotic Interventions, and Modeling. Vol. 11315. International Society for Optics and Photonics, 2020.'
-
-> Kamrul Hasan, S. M., and Cristian A. Linte. "CondenseUNet: A Memory-Efficient Condensely-Connected Architecture for Bi-ventricular Blood Pool and Myocardium Segmentation." arXiv (2020): arXiv-2004.
+> Hasan, S. M., and Cristian A. Linte. "L-CO-Net: Learned Condensation-Optimization Network for Clinical Parameter Estimation from Cardiac Cine MRI." arXiv preprint arXiv:2004.11253 (2020).
 
 
 

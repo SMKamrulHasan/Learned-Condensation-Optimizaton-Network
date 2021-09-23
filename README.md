@@ -35,7 +35,7 @@ We depend on some python packages which need to be installed by the user:
 * h5py
 
 # Authors 
--   [S. M. Kamrul Hasan](smkamrulhasan.github.io) Rochester
+-   [S. M. Kamrul Hasan](https://smkamrulhasan.github.io) Rochester
     Institute of Technology
 -   [Cristian A. Linte](https://www.rit.edu/directory/calbme-cristian-linte) Rochester Institute of
     Technology

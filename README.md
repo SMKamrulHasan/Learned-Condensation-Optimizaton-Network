@@ -1,11 +1,24 @@
-# L-CO-Net (Learned-Condensation-Optimizaton Network)
 
-Condensely connected architecture for Cardiac Cine MR Image Segmentation and Quantification
+**L-CO-Net: Learned Condensation-Optimization Network for Clinical Parameter Estimation from Cardiac Cine MRI** EMBC 2020, Oral 
+---------------------------------------------------------------------------------------------------------------------------------
 
 This repository contains code to train state-of-the-art cardiac segmentation networks as described in this paper: CondenseUNet: A Memory-Efficient Condensely-Connected Architecture for Bi-ventricular Blood Pool and Myocardium
 Segmentation. This architecture is trained on [MICCAI 2017 ACDC Cardiac segmentation challenge.](https://www.creatis.insa-lyon.fr/Challenge/acdc/index.html)
 
-In this work, we implement a fully convolutional segmenter featuring both a learned group structure and a regularized weight pruner to reduce the high computational cost in volumetric image segmentation. We validated our framework on the ACDC dataset featuring one healthy and four pathology groups imaged throughout the cardiac cycle. Our technique achieved Dice scores of 96.80% (LV blood-pool), 93.33% (RV blood-pool) and 90.0% (LV Myocardium) with five-fold cross-validation and yielded similar clinical parameters as those estimated from the groundtruth segmentation data. Based on these results, this technique has the potential to become an efficient and competitive cardiac image segmentation tool that may be used for cardiac computer-aided diagnosis, planning and guidance applications.
+### **Abstract**
+
+In this work, we implement a fully convolutional segmenter featuring
+both a learned group structure and a regularized weight-pruner to reduce
+the high computational cost in volumetric image segmentation. We
+validated our framework on the ACDC dataset featuring one healthy and
+four pathology groups imaged throughout the cardiac cycle. Our technique
+achieved Dice scores of 96.8% (LV blood-pool), 93.3% (RV blood-pool) and
+90.0% (LV Myocardium) with five-fold cross-validation and yielded
+similar clinical parameters as those estimated from the ground truth
+segmentation data. Based on these results, this technique has the
+potential to become an efficient and competitive cardiac image
+segmentation tool that may be used for cardiac computer-aided diagnosis,
+planning, and guidance applications.
 
 
 # Prerequisites
@@ -22,8 +35,10 @@ We depend on some python packages which need to be installed by the user:
 * h5py
 
 # Authors 
-* S. M. Kamrul Hasan ([sh3190@rit.edu])()
-* Cristian A. Linte
+-   [S. M. Kamrul Hasan](smkamrulhasan.github.io) Rochester
+    Institute of Technology
+-   [Cristian A. Linte](https://www.rit.edu/directory/calbme-cristian-linte) Rochester Institute of
+    Technology
 
 # Contents 
 
@@ -31,7 +46,6 @@ We depend on some python packages which need to be installed by the user:
 * [Method]()
 * [Results]()
 * [How to Run]()
-
 
 
 # [Data]()
@@ -71,13 +85,6 @@ no. of parameters (×106 ), and the clinical indices evaluated on the ACDC datas
 
 <img width="674" alt="Screen Shot 2020-05-01 at 11 04 22 PM" src="https://user-images.githubusercontent.com/42282006/80853609-206b1a00-8c00-11ea-8d3b-77fc5a7ee8d4.png">
 
-**L-CO-Net: Learned Condensation-Optimization Network for Clinical Parameter Estimation from Cardiac Cine MRI** EMBC 2020, Oral 
----------------------------------------------------------------------------------------------------------------------------------
-
--   [S. M. Kamrul Hasan](http://ai.stanford.edu/~optas/) Rochester
-    Institute of Technology
--   [Cristian A. Linte](http://aabdelreheem.me) Rochester Institute of
-    Technology
 
 -   [](https://arxiv.org/abs/2004.11253)
 
@@ -95,20 +102,7 @@ no. of parameters (×106 ), and the clinical indices evaluated on the ACDC datas
 
     #### **[ Dataset ]**
 
-### **Abstract**
 
-In this work, we implement a fully convolutional segmenter featuring
-both a learned group structure and a regularized weight-pruner to reduce
-the high computational cost in volumetric image segmentation. We
-validated our framework on the ACDC dataset featuring one healthy and
-four pathology groups imaged throughout the cardiac cycle. Our technique
-achieved Dice scores of 96.8% (LV blood-pool), 93.3% (RV blood-pool) and
-90.0% (LV Myocardium) with five-fold cross-validation and yielded
-similar clinical parameters as those estimated from the ground truth
-segmentation data. Based on these results, this technique has the
-potential to become an efficient and competitive cardiac image
-segmentation tool that may be used for cardiac computer-aided diagnosis,
-planning, and guidance applications.
 
 ### **Video**
 

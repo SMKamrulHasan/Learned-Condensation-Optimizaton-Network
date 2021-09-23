@@ -103,34 +103,6 @@ planning, and guidance applications.
 
 --\> --\>
 
-### **Dataset**
-
-For this study, we used the ACDC dataset, which is composed of
-short-axis cardiac cine-MR images acquired from 100 different patients
-divided into 5 evenly distributed subgroups according to their cardiac
-condition: normal- NOR, myocardial infarction- MINF, dilated
-cardiomyopathy- DCM, hypertrophic cardiomyopathyHCM, and abnormal right
-ventricle- ARV, available as a part of the STACOM 2017 ACDC challenge..
-\
-
-### **Method: L-CO-Net**
-
-![overview](img/method.png)
-
-Illustration of L-CO-Net framework: (a) ROI detection around LV-RV; (b)
-Segmentation block consisting of a decoder and an encoder where each
-condense block (CB) consists of 3 Layers with a growth rate of k = 16.
-The transformations within each CB and the transition-down block are
-labeled with a cyan and yellow box, respectively.
-
-### **Qualitative Results**
-
-![overview](img/listener_qualitative_res.png)
-
-Representative ED and ES frames segmentation results of a complete
-cardiac cycle from the base (high slice index) to apex (low slice index)
-showing RV blood-pool, LV blood-pool, and LV-Myocardium in purple, red,
-and cyan respectively
 
 ### **Citation**
 
